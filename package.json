@@ -1,7 +1,7 @@
 {
   "name": "my-website",
   "version": "0.1.0",
-  "homepage": "https://shaqnew.github.io/shaqnew.github.io",
+  "homepage": "https://shaqnew.github.io/shaq-newell-site",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
