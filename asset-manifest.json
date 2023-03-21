@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shaqnew.github.io/static/css/main.79471875.css",
+    "main.js": "/shaqnew.github.io/static/js/main.bb7e0bfe.js",
+    "static/js/787.bbe01249.chunk.js": "/shaqnew.github.io/static/js/787.bbe01249.chunk.js",
+    "index.html": "/shaqnew.github.io/index.html",
+    "main.79471875.css.map": "/shaqnew.github.io/static/css/main.79471875.css.map",
+    "main.bb7e0bfe.js.map": "/shaqnew.github.io/static/js/main.bb7e0bfe.js.map",
+    "787.bbe01249.chunk.js.map": "/shaqnew.github.io/static/js/787.bbe01249.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79471875.css",
+    "static/js/main.bb7e0bfe.js"
+  ]
+}
