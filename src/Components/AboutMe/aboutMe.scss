@@ -1,5 +1,64 @@
 .AboutMe {
+    background-color: black;
+    // color: #282c34;
+    color: white;
     position: relative;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     border: 1px solid red;
+    &__content {
+        // margin: 5px 20px;
+        display: flex;
+        flex-flow: column;
+        flex: 1 1 auto;
+        justify-content: space-between;
+        // &__icons {
+        //     position: relative;
+        //     display: flex;
+        //     border: 1px solid red;
+        //     bottom: 0;
+        //     height: 300px;
+        //     width: 100%;
+        //     justify-content: space-around;
+        // }
+    }
+}
+
+.AboutMeText {
+    margin: 5px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.PImage {
+    border: 1px solid blue;
+    position: relative;
+    z-index: -1;
+}
+
+.AboutMeIcons {
+        position: relative;
+        display: flex;
+        // border: 1px solid red;
+        bottom: 0;
+        height: 300px;
+        width: 100%;
+        justify-content: space-around;
+    &__BigBen{
+        // position: absolute;
+        bottom: 0;
+        height: 300px;
+    }
+    &__Gherkin{
+        // position: absolute;
+        bottom: 0;
+        height: 200px;
+        overflow: hidden;
+    }
+    &__LondonEye{
+        // position: absolute;
+        bottom: 0;
+        height: 200px;
+    }
 }

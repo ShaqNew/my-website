@@ -1,16 +1,26 @@
 import React from "react";
+import AboutMeText from "./AboutMeText";
+import AboutMeIcons from "./AboutMeIcons";
+import { Parallax } from 'react-scroll-parallax';
 import './aboutMe.scss'
+import ParallaxImage from "./ParalaxImage";
+import ParallaxHeading from "../ParallaxHeading/ParallaxHeading";
+import bigBen from '../../utils/icons/big-ben.png'
+import gherkin from '../../utils/icons/gherkin.png'
+import londonEye from '../../utils/icons/london-eye.png'
 
 
 const AboutMe = () => {
     return(
-        <section id="aboutme" className="AboutMe">
-            <h1>About</h1>
-            <h2>Hi! My name is Shaquille but everyone calls me Shaq</h2>
-            <p>I created this website to give you an introduction to myself as a developer and a person</p>
-            <p>I am a web developer born and raised in London with specialties in frontend development</p>
-            <p>I learned computer science at the <a href="https://www.kent.ac.uk/courses/undergraduate/124">University of Kent</a></p>
-        </section>
+            <div id="aboutme" className="AboutMe">
+                <div className="AboutMe__heading">
+                    <ParallaxHeading/>
+                </div>
+                <div className="AboutMe__content">
+                    <AboutMeText/>
+                    <AboutMeIcons/>
+                </div>
+            </div>
     )
 }
 
