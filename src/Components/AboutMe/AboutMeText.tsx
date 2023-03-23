@@ -5,7 +5,7 @@ const AboutMeText = () => {
   return (
     <div className="AboutMeText">
       <h2>
-        Hi! My name is Shaquille but everyone calls me{" "}
+        My name is Shaquille but everyone calls me{" "}
         <Parallax
           easing={"easeInOutSine"}
           startScroll={1}
@@ -21,7 +21,7 @@ const AboutMeText = () => {
       </p>
       <p>
         I learned computer science at the{" "}
-        <a href="https://www.kent.ac.uk/courses/undergraduate/124">
+        <a className="AboutMeText__Link" href="https://www.kent.ac.uk/courses/undergraduate/124">
           University of Kent
         </a>
       </p>

@@ -1,4 +1,5 @@
 import React from "react";
+import {TypeAnimation} from 'react-type-animation'
 import "./welcomeMessage.scss";
 
 const WelcomeMessage = () => {
@@ -9,8 +10,19 @@ const WelcomeMessage = () => {
       </h1>
       <p className="welcome__message">Hi and welcome to my personal page!</p>
       <p>
-        I created this website to introduce myself as a <code>developer</code>{" "}
-        and a <strong>person</strong>
+        I created this website to introduce myself as a 
+        <TypeAnimation
+            sequence={[
+                ' developer.',
+                3000,
+                ' developer and a person.',
+                1000,
+                ' developer and a person! :D',
+                8000,
+            ]}
+            speed={50}
+            repeat={Infinity}
+        />
       </p>
       <li className="welcome__links">
         <a className="welcome__links--about" href="#aboutme">
