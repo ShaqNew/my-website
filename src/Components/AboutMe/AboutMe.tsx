@@ -3,7 +3,7 @@ import AboutMeText from "./AboutMeText";
 import AboutMeIcons from "./AboutMeIcons";
 import { Parallax } from 'react-scroll-parallax';
 import './aboutMe.scss'
-import ParallaxImage from "./ParalaxImage";
+// import ParallaxImage from "./ParalaxImage";
 import ParallaxHeading from "../ParallaxHeading/ParallaxHeading";
 import bigBen from '../../utils/icons/big-ben.png'
 import gherkin from '../../utils/icons/gherkin.png'

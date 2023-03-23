@@ -33,13 +33,14 @@
     flex-direction: column;
     &__Link {
         &:link {
-            color: green;
+            color: white;
         }
         &:visited {
             color: white;
         }
         &:hover {
-            color: red;
+            // color: #5988ff;
+            background-color: #366cf4;
         }
     }
 }
