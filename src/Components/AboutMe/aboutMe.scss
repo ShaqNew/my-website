@@ -31,6 +31,17 @@
     margin: 5px 20px;
     display: flex;
     flex-direction: column;
+    &__Link {
+        &:link {
+            color: green;
+        }
+        &:visited {
+            color: white;
+        }
+        &:hover {
+            color: red;
+        }
+    }
 }
 
 .PImage {
