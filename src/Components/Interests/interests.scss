@@ -1,8 +1,59 @@
-.interests {
+.Interests {
     background-color: black;
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
     min-height: 100vh;
     border: 1px solid green;
+    &__content {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+}
+
+.buttonsContainer {
+    display: flex;
+    height: 50px;
+    padding: 10px 10px;
+    // border: 1px solid red;
+    justify-content: space-around;
+    // overflow-y: hidden;
+    @media screen and (max-width: 600px) {
+        padding: 0;
+    }
+    // &__button {
+    //     display: flex;
+    //     position: relative;
+    //     height: 50px;
+    //     width: 150px;
+    //     border: none;
+    //     justify-content: center;
+    //     background-color: #366cf4;
+    //     color: white;
+    //     align-items: center;
+    //     text-decoration: none;
+    //     transition: all 0.3s ease-in-out 0s;
+    //     &:hover{
+    //         height: 55px;
+    //         width: 155px;
+    //         box-shadow: rgba(0, 0, 0, 0.596) 0px 5px 15px;
+    //     }
+    // }
+}
+
+.displayContainer {
+    display: flex;
+    flex: 1 1 auto;
+    margin: 10px;
+    border: 1px solid blue;
+    justify-content: center;
+}
+
+.gaming,
+.movies,
+.science,
+.animals,
+.defaultView {
+    color: white;
 }
