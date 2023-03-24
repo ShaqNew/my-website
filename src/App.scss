@@ -28,11 +28,38 @@
 }
 
 .App-content {
-  font-size: calc(5px + 2vmin);
+  font-size: calc(8px + 2vmin);
 }
 
 .App-link {
   color: #61dafb;
+}
+
+
+button {
+  display: flex;
+  position: relative;
+  height: 50px;
+  width: 150px;
+  border: none;
+  justify-content: center;
+  background-color: #366cf4;
+  color: white;
+  font-size: calc(15px + 1vmin);
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out 0s;
+  @media screen and (max-width: 600px) {
+    height: 40px;
+    width: 20%;
+    margin: 5px;
+  }
+  &:hover{
+      height: 55px;
+      width: 160px;
+      box-shadow: rgba(0, 0, 0, 0.596) 0px 5px 15px;
+      font-weight: bold;
+  }
 }
 
 @keyframes App-logo-spin {
