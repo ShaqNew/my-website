@@ -9,6 +9,7 @@ const Gaming = () => {
                 <p>Mario Odessy</p>
                 <p>Elder Scrolls</p>
                 <p>Spider-Man</p>
+                <p>Red Dead Redeption</p>
         </div>
     )
 }
