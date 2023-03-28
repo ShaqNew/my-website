@@ -1,15 +1,17 @@
 import React from "react";
+import GamingLibrary from "./GamingLibrary/GamingLibrary";
+import GamingText from "./GamingText";
+import "./gaming.scss"
 
 const Gaming = () => {
     return (
         <div className="gaming">
             <h2>Gaming</h2>
-                <p>Rocket League</p>
-                <p>The Last Of Us</p>
-                <p>Mario Odessy</p>
-                <p>Elder Scrolls</p>
-                <p>Spider-Man</p>
-                <p>Red Dead Redeption</p>
+            <div className="gaming__content">
+                    <GamingText />
+                    <GamingLibrary />
+            </div>
+                
         </div>
     )
 }

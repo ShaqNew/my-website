@@ -1,0 +1,19 @@
+.gamingText {
+    width: 45%;
+    margin: 0 auto;
+    // border: solid 1px red;
+    text-align: left;
+    white-space:break-spaces;
+    text-align: center;
+    @media (max-width: 800px) {
+        width: 85%;
+    }
+}
+
+.gamingLibrary {
+    width: 45%;
+    margin: 0 auto;
+    @media (max-width: 800px) {
+        width: 85%;
+    }
+}

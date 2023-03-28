@@ -1,0 +1,14 @@
+.gameCard {
+    width: 45%;
+    margin: 10px;
+    @media screen and (max-width: 600px) {
+        margin: 5px;
+    }
+    &__poster {
+        // width: 50%;
+    }
+}
+
+.gamePoster {
+    width: 100%;
+}
