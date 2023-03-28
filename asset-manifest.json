@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.b2693349.css",
-    "main.js": "/my-website/static/js/main.17518ce7.js",
+    "main.css": "/my-website/static/css/main.e8b77350.css",
+    "main.js": "/my-website/static/js/main.b4cdeb97.js",
     "static/js/787.bbe01249.chunk.js": "/my-website/static/js/787.bbe01249.chunk.js",
+    "static/media/blackhole-giphy.gif": "/my-website/static/media/blackhole-giphy.07b424176ef89e2de92f.gif",
+    "static/media/MoonlightPoster.jpeg": "/my-website/static/media/MoonlightPoster.ed0e99fe18c44ad7ad24.jpeg",
+    "static/media/TheLastOfUs.jpeg": "/my-website/static/media/TheLastOfUs.95ca98b51561c043a994.jpeg",
+    "static/media/Mario.webp": "/my-website/static/media/Mario.bf34586956d205280ef9.webp",
+    "static/media/Skyrim.jpeg": "/my-website/static/media/Skyrim.8808b80ed5f82662dcda.jpeg",
+    "static/media/GodOfWar.webp": "/my-website/static/media/GodOfWar.48755b633bd3d656bd4a.webp",
+    "static/media/rocket_league_poster.jpeg": "/my-website/static/media/rocket_league_poster.c7dd748ba93e9bc8f438.jpeg",
+    "static/media/Spider-Man.jpeg": "/my-website/static/media/Spider-Man.6300fd1793f4e7aca57e.jpeg",
+    "static/media/kurzgesagt-bird.png": "/my-website/static/media/kurzgesagt-bird.f299465b6ea4f227eb9a.png",
     "static/media/gherkin.png": "/my-website/static/media/gherkin.a4fa069dcff976132e6a.png",
     "static/media/big-ben.png": "/my-website/static/media/big-ben.c55a06dc00b3b15887a3.png",
     "index.html": "/my-website/index.html",
-    "main.b2693349.css.map": "/my-website/static/css/main.b2693349.css.map",
-    "main.17518ce7.js.map": "/my-website/static/js/main.17518ce7.js.map",
+    "main.e8b77350.css.map": "/my-website/static/css/main.e8b77350.css.map",
+    "main.b4cdeb97.js.map": "/my-website/static/js/main.b4cdeb97.js.map",
     "787.bbe01249.chunk.js.map": "/my-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2693349.css",
-    "static/js/main.17518ce7.js"
+    "static/css/main.e8b77350.css",
+    "static/js/main.b4cdeb97.js"
   ]
 }
