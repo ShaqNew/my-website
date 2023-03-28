@@ -1,0 +1,17 @@
+.Skills {
+    background-color: #010334;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    &__content {
+        display: flex;
+        // flex-flow: column;
+        flex: 1 1 auto;
+        width: 80%;
+        margin: 0 auto;
+        justify-content:space-around;
+    }
+}

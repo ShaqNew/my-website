@@ -2,6 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper';
 import { movieList, IMovieCard } from "./MoviesList";
+import './moviesCarousel.scss'
 import 'swiper/scss';
 import "swiper/scss/pagination";
 import "swiper/scss/navigation";

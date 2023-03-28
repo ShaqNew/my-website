@@ -29,7 +29,12 @@ const InterestsDisplay = (props: { view: string }) => {
       ) : (
         <div className="defaultView">
             <h2>default view</h2>
-            Also mention tech
+            <p>Tech</p>
+            <p>Animals</p>
+            <p>Comics</p>
+            <p>Travel</p>
+            <p>Dogs</p>
+            <p>Space</p>
         </div>
       )}
     </div>

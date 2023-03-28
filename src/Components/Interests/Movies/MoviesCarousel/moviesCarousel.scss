@@ -1,0 +1,20 @@
+.moviesCarousel {
+    width: 45%;
+    margin: 0 auto;
+    @media (max-width: 800px) {
+        width: 85%;
+    }
+}
+
+.movieCard {
+    margin-bottom: 50px;
+    &__poster {
+        width: 200px;
+        height: 270px;
+    }
+}
+
+.movieListPoster {
+    width: 200px;
+    height: 270px;
+}

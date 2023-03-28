@@ -1,5 +1,5 @@
 import React from "react";
-import MoviesCarousel from "./MoviesCarousel";
+import MoviesCarousel from "./MoviesCarousel/MoviesCarousel";
 import MoviesText from "./MoviesText";
 import "./movies.scss"
 

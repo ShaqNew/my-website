@@ -27,6 +27,8 @@ const AboutMeText = () => {
           University of Kent
         </a>
       </p>
+      <p>
+      </p>
     </div>
   );
 };

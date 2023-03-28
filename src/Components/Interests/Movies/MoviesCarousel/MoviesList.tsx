@@ -1,4 +1,4 @@
-import moonlight from "../../../utils/posters/MoonlightPoster.jpeg"
+import moonlight from "../../../../utils/posters/MoonlightPoster.jpeg"
 // TODO: import all of the images
 
 export interface IMovieCard {
@@ -34,7 +34,7 @@ export const movieList:TMovieList = [
         myRating: 7
     },
     {
-        title: "Everything Everywhere All At Once",
+        title: "Everything Everywhere",
         poster:"https://i.ebayimg.com/images/g/5WoAAOSw6RlijkIB/s-l500.jpg",
         myRating: 6
     },
