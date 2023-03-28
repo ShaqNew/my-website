@@ -1,7 +1,7 @@
 .AboutMe {
-    // background-color: black;
-    background: rgb(2,0,36);
-    background: linear-gradient(55deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 57%, rgba(0,212,255,1) 100%);
+    background-color: #010334;
+    // background: rgb(2,0,36);
+    // background: linear-gradient(55deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 57%, rgba(0,212,255,1) 100%);
     // color: #282c34;
     color: white;
     position: relative;
@@ -59,20 +59,23 @@
         height: 300px;
         width: 100%;
         justify-content: space-around;
+        @media screen and (max-width: 600px) {
+            height: 200px;
+        }
     &__BigBen{
         // position: absolute;
         bottom: 0;
         height: 300px;
+        @media screen and (max-width: 600px) {
+            height: 200px;
+        }
     }
     &__Gherkin{
         // position: absolute;
         bottom: 0;
         height: 200px;
-        // overflow: hidden;
-    }
-    &__LondonEye{
-        // position: absolute;
-        bottom: 0;
-        height: 200px;
+        @media screen and (max-width: 600px) {
+            height: 130px;
+        }
     }
 }

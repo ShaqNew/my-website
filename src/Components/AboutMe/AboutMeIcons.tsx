@@ -2,7 +2,6 @@ import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import bigBen from "../../utils/icons/big-ben.png";
 import gherkin from "../../utils/icons/gherkin.png";
-import londonEye from "../../utils/icons/london-eye.png";
 
 const AboutMeIcons = () => {
   return (
@@ -35,11 +34,6 @@ const AboutMeIcons = () => {
           />
         </Parallax>
       </div>
-      {/* <div className="AboutMeIcons__LondonEye">
-                <Parallax easing={"easeIn"} translateX={[100,0]} startScroll={100} endScroll={700}>
-                    <img className="AboutMeIcons__LondonEye" src={londonEye} alt="London Eye Icon"/>
-                </Parallax>
-            </div> */}
     </div>
   );
 };

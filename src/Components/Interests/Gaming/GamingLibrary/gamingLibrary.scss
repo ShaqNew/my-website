@@ -1,0 +1,25 @@
+.gamingLibrary {
+    display: flex;
+    flex-direction: column;
+    // width: 500px;
+    background: rgb(84,85,97);
+    background: linear-gradient(94deg, rgba(84,85,97,1) 0%, rgba(109,112,121,1) 46%, rgba(84,85,97,1) 100%);
+    &__heading {
+        // width: 100%;
+        background: rgb(35,35,45);
+        background: linear-gradient(0deg, rgba(35,35,45,1) 0%, rgba(26,31,60,1) 91%, rgba(24,31,90,1) 96%, rgba(22,32,100,1) 100%);
+        padding: 10px
+    }
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+        overflow: scroll;
+        max-width: 100%;
+        height: calc(50vh - 16px);
+        @media screen and (max-width: 600px) {
+            height: calc(40vh - 45px);
+        }
+    }
+}
