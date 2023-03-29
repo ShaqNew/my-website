@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.e8b77350.css",
-    "main.js": "/my-website/static/js/main.b4cdeb97.js",
+    "main.css": "/my-website/static/css/main.499dfb75.css",
+    "main.js": "/my-website/static/js/main.a5514b53.js",
     "static/js/787.bbe01249.chunk.js": "/my-website/static/js/787.bbe01249.chunk.js",
     "static/media/blackhole-giphy.gif": "/my-website/static/media/blackhole-giphy.07b424176ef89e2de92f.gif",
     "static/media/MoonlightPoster.jpeg": "/my-website/static/media/MoonlightPoster.ed0e99fe18c44ad7ad24.jpeg",
@@ -15,12 +15,12 @@
     "static/media/gherkin.png": "/my-website/static/media/gherkin.a4fa069dcff976132e6a.png",
     "static/media/big-ben.png": "/my-website/static/media/big-ben.c55a06dc00b3b15887a3.png",
     "index.html": "/my-website/index.html",
-    "main.e8b77350.css.map": "/my-website/static/css/main.e8b77350.css.map",
-    "main.b4cdeb97.js.map": "/my-website/static/js/main.b4cdeb97.js.map",
+    "main.499dfb75.css.map": "/my-website/static/css/main.499dfb75.css.map",
+    "main.a5514b53.js.map": "/my-website/static/js/main.a5514b53.js.map",
     "787.bbe01249.chunk.js.map": "/my-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8b77350.css",
-    "static/js/main.b4cdeb97.js"
+    "static/css/main.499dfb75.css",
+    "static/js/main.a5514b53.js"
   ]
 }
