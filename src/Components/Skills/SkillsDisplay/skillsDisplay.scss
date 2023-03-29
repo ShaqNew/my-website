@@ -1,0 +1,56 @@
+.skillsDisplay {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    aspect-ratio: 3/1;
+    outline: 1px red solid;
+    margin: 30px;
+    justify-content: center;
+    &__stack,
+    &__experience,
+    &__outlook {
+        display: flex;
+        width: 33% !important;
+        height: auto !important;
+        outline: 1px red solid;
+        position: relative;
+        aspect-ratio: 1/1;
+        // background-color: none;
+        &:hover {
+            outline: 1px green solid;
+            box-shadow: rgba(0, 0, 0, 0.596) 5px 10px 15px;
+        }
+        &--active {
+            width: 90% !important;
+            height: auto !important;
+            outline: 1px red solid;
+        }
+        &--collapsed {
+            width: 5% !important;
+            height: auto !important;
+            outline: 1px red solid;
+        }
+    }
+    &__stackHeading,
+    &__experienceHeading,
+    &__outlookHeading {
+        &--collapsed {
+            transform: rotate(-90deg);
+        }
+    }
+}
+
+.skillButtonContent {
+    &__heading {
+        &--collapsed {
+            transform: rotate(-90deg);
+        }
+    }
+    &__stack,
+    &__experience,
+    &__outlook {
+        &--collapsed {
+            display: none;
+        }
+    }
+}

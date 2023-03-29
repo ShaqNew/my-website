@@ -4,14 +4,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     min-height: 100vh;
     &__content {
         display: flex;
-        // flex-flow: column;
-        flex: 1 1 auto;
-        width: 80%;
-        margin: 0 auto;
-        justify-content:space-around;
+        flex-direction: row;
+        // min-height: 80vh;
+        width: 100%;
+        justify-content: center;
+        margin: auto;
     }
 }
