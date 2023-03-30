@@ -3,7 +3,6 @@
     flex-direction: row;
     width: 100%;
     aspect-ratio: 3/1;
-    outline: 1px red solid;
     margin: 30px;
     justify-content: center;
     &__stack,
@@ -12,10 +11,9 @@
         display: flex;
         width: 33% !important;
         height: auto !important;
-        outline: 1px red solid;
         position: relative;
         aspect-ratio: 1/1;
-        // background-color: none;
+        background-size: cover !important;
         &:hover {
             outline: 1px green solid;
             box-shadow: rgba(0, 0, 0, 0.596) 5px 10px 15px;
@@ -23,12 +21,13 @@
         &--active {
             width: 90% !important;
             height: auto !important;
-            outline: 1px red solid;
+            font-size: calc(15px + 1vmin) !important;
+            overflow-y: hidden;
+            background-size: cover !important;
         }
         &--collapsed {
             width: 5% !important;
             height: auto !important;
-            outline: 1px red solid;
         }
     }
     &__stackHeading,
@@ -40,7 +39,12 @@
     }
 }
 
-.skillButtonContent {
+.skillButton {
+    display: flex;
+    flex-flow: column;
+    &--active {
+        height: -webkit-fill-available;
+    }
     &__heading {
         &--collapsed {
             transform: rotate(-90deg);
@@ -52,5 +56,29 @@
         &--collapsed {
             display: none;
         }
+        &--active {
+            // overflow-y: hidden;
+            // text-overflow: ellipsis;
+            padding: 0 25px;
+        }
     }
+    &__stack {
+        &--active{
+            width: 100%;
+        }
+    }
+    &__experience,
+    &__outlook {
+        &--active{
+            color: black;
+            background-color: #f0f8ffa8;
+        }
+    }
+}
+
+
+
+.stackContent {
+    display: flex;
+    justify-content: space-between;
 }
