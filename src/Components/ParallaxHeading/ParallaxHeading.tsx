@@ -1,6 +1,7 @@
 import React from "react";
 import { Parallax, ParallaxBanner } from 'react-scroll-parallax';
 import './parallaxHeading.scss'
+import bg from "../../utils/PNGs/StarBackground.jpeg"
 
 const ParallaxHeading = (props:any) => {
     const {image, text} = props;
@@ -16,6 +17,30 @@ const ParallaxHeading = (props:any) => {
                     </Parallax>
                 </div>
             </ParallaxBanner>
+
+            {/* <ParallaxBanner
+                layers={[
+                    { image: '../../utils/PNGs/StarBackground.jpeg', speed: -20 },
+                    { image: '../../utils/PNGs/city-skyline-silhouette2.webp', speed: -10 },
+                ]}
+                className="aspect-[2/1]"
+            /> */}
+
+        {/* <ParallaxBanner
+          layers={[
+            { image: "../../utils/PNGs/StarBackground.jpeg", speed: -20 },
+            {
+              speed: -15,
+              children: (
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <h1 className="text-8xl text-white font-thin">Hello World!</h1>
+                </div>
+              ),
+            },
+            { image: '../../utils/PNGs/city-skyline-silhouette2.webp', speed: -10 },
+          ]}
+          className="aspect-[2/1]"
+        /> */}
         </div>
     )
 }

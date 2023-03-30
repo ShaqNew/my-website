@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
-import SkillButtonContent from "./SkillButtonContent";
+import SkillButton from "./SkillButton";
+import { ExperienceContent, StackContent, Outlook } from "./SkillButtonContent";
+import techBG from "../../../utils/skillsImages/techBackground.jpeg"
+import experienceBG from "../../../utils/skillsImages/experienceBackground.jpeg"
+import outlookBG from "../../../utils/skillsImages/knowledgePlug.jpeg"
 import "./skillsDisplay.scss";
 
 const SkillsDisplay = () => {
@@ -22,54 +26,49 @@ const SkillsDisplay = () => {
   return (
     <div className="skillsDisplay">
       <button
+        style={{backgroundImage: `url(${techBG})`}}
         className={`skillsDisplay__stack${buttonStatus("stack")}`}
         onClick={() => {
           setActiveSkill(activeSkill === "stack" ? "" : "stack");
         }}
       >
-        {/* <h2 className={`skillsDisplay__stackHeading${buttonStatus("stack")}`}>
-          Techstack
-        </h2> */}
-        <SkillButtonContent
+        <SkillButton
             skill={"stack"}
             status={buttonStatus("stack")}
             heading={"Techstack"}
-            content={"To be imported from Techstack content"}
-            backgroundImage={null}
+            content={<StackContent/>}
+            // bgImage={techBG}
         />
       </button>
       <button
+        style={{backgroundImage: `url(${experienceBG})`}}
         className={`skillsDisplay__experience${buttonStatus("experience")}`}
         onClick={() => {
           setActiveSkill(activeSkill === "experience" ? "" : "experience");
         }}
       >
-        <SkillButtonContent
+        <SkillButton
             skill={"experience"}
             status={buttonStatus("experience")}
             heading={"Experience"}
-            content={"To be imported from Experience content"}
-            backgroundImage={null}
+            content={<ExperienceContent/>}
+            // bgImage={null}
         />
       </button>
       <button
+        style={{backgroundImage: `url(${outlookBG})`}}
         className={`skillsDisplay__outlook${buttonStatus("outlook")}`}
         onClick={() => {
           setActiveSkill(activeSkill === "outlook" ? "" : "outlook");
         }}
       >
-      <SkillButtonContent
+      <SkillButton
           skill={"outlook"}
           status={buttonStatus("outlook")}
           heading={"Outlook"}
-          content={"To be imported from Outlook content"}
-          backgroundImage={null}
+          content={<Outlook/>}
+          // bgImage={null}
       />
-        {/* <h2
-          className={`skillsDisplay__outlookHeading${buttonStatus("outlook")}`}
-        >
-          Outlook
-        </h2> */}
       </button>
     </div>
   );
