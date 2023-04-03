@@ -35,11 +35,17 @@
 .defaultView {
     color: white;
     width: 100%;
-    &__container {
-        display: flex;
-        justify-content: space-between;
-    }
+    // &__container {
+    //     display: flex;
+    //     justify-content: space-between;
+    // }
 }
+
+.defaultView {
+    padding: 0 15px;
+}
+
+
 
 .gaming,
 .movies,
@@ -80,4 +86,6 @@
   }
 
 
-
+  b {
+    color: #a9d5ff;
+  }

@@ -1,4 +1,13 @@
 import moonlight from "../../../../utils/posters/MoonlightPoster.jpeg"
+import arrival from "../../../../utils/posters/ArrivalPoster.jpeg"
+import dune from "../../../../utils/posters/DunePoster.jpeg"
+import spiderVerse from "../../../../utils/posters/SpiderversePoster.jpeg"
+import Everything from "../../../../utils/posters/EEAAOPoster.jpeg"
+// import arrival from "../../../../utils/posters/ArrivalPoster.jpeg"
+// import arrival from "../../../../utils/posters/ArrivalPoster.jpeg"
+// import arrival from "../../../../utils/posters/ArrivalPoster.jpeg"
+// import arrival from "../../../../utils/posters/ArrivalPoster.jpeg"
+// import arrival from "../../../../utils/posters/ArrivalPoster.jpeg"
 // TODO: import all of the images
 
 export interface IMovieCard {
@@ -20,22 +29,26 @@ export const movieList:TMovieList = [
     },
     {
         title: "Arrival",
-        poster:"https://ichef.bbci.co.uk/news/976/cpsprodpb/5AB8/production/_90842232_cc5dcc0c-a0fc-4009-b8d4-73b507fdce72.jpg",
+        // poster:"https://ichef.bbci.co.uk/news/976/cpsprodpb/5AB8/production/_90842232_cc5dcc0c-a0fc-4009-b8d4-73b507fdce72.jpg",
+        poster:<img className="movieListPoster" src={arrival} alt=""></img>,
         myRating: 9
     },
     {
         title: "Dune",
-        poster:"https://imageio.forbes.com/specials-images/imageserve/61116cea2313e8bae55a536a/-Dune-/0x0.jpg?format=jpg&width=960",
+        // poster:"https://imageio.forbes.com/specials-images/imageserve/61116cea2313e8bae55a536a/-Dune-/0x0.jpg?format=jpg&width=960",
+        poster:<img className="movieListPoster" src={dune} alt=""></img>,
         myRating: 8
     },
     {
         title: "Into The Spider-verse",
-        poster:"https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg",
+        // poster:"https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg",
+        poster:<img className="movieListPoster" src={spiderVerse} alt=""></img>,
         myRating: 7
     },
     {
         title: "Everything Everywhere",
-        poster:"https://i.ebayimg.com/images/g/5WoAAOSw6RlijkIB/s-l500.jpg",
+        // poster:"https://i.ebayimg.com/images/g/5WoAAOSw6RlijkIB/s-l500.jpg",
+        poster:<img className="movieListPoster" src={Everything} alt=""></img>,
         myRating: 6
     },
     {

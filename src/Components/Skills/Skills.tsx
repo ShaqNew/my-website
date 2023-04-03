@@ -10,7 +10,8 @@ const Skills = () => {
             <div className="Skills__heading">
             <ParallaxHeading
                 image={
-                "https://upload.wikimedia.org/wikipedia/commons/8/8b/Stars_and_Mountains.jpg"
+                    // "https://upload.wikimedia.org/wikipedia/commons/8/8b/Stars_and_Mountains.jpg"
+                    "https://www.wallpapertip.com/wmimgs/65-650199_backgrounds-black-and-blue.jpg"
                 }
                 text={"Skills"}
             />
@@ -18,9 +19,6 @@ const Skills = () => {
             <div className="Skills__content">
                 {/* <SkillsText/> */}
                 <SkillsDisplay/>
-                {/* <TeckStack/> */}
-                {/* <Experience/> */}
-                {/* <Outlook/> */}
             </div>
         </div>
     )

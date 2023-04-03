@@ -28,13 +28,35 @@ const InterestsDisplay = (props: { view: string }) => {
         displayView()
       ) : (
         <div className="defaultView">
-            <h2>default view</h2>
-            <p>Tech</p>
-            <p>Animals</p>
-            <p>Comics</p>
-            <p>Travel</p>
-            <p>Dogs</p>
-            <p>Space</p>
+          <h2>default view</h2>
+          <p>
+            I have many passions and interests that keep me engaged and excited
+            about life!
+          </p>
+          <p>
+            For one, I absolutely love <b>tech</b> and am always eager to learn
+            about the latest advancements.{" "}
+          </p>
+          <p>
+            I'm also a <b>huge animal lover</b>, especially <b>dogs</b>, and I
+            find myself constantly fascinated by their unique behaviours and
+            personalities.
+          </p>
+          <p>
+            More recently I've found new interest in <b>traveling</b> and gaining new
+            insight into different regions and cultures around the world. I also
+            like <b>comics, shows, expansive stories</b> and any media that allows my
+            imagination to run wild.
+          </p>
+          <p>
+            I could write about the things I love all day so I decided to
+            create small sections for a few of my favourite things
+          </p>
+          <p>
+            Overall, I have a diverse range of interests, that keep me
+            constantly learning, exploring, and finding new sources of
+            inspiration in the world around me!
+          </p>
         </div>
       )}
     </div>
