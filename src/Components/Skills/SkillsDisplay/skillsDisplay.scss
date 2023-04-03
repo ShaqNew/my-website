@@ -28,7 +28,7 @@
             width: 90% !important;
             height: auto !important;
             font-size: calc(15px + 1vmin) !important;
-            overflow-y: hidden;
+            overflow-y: scroll;
             background-size: cover !important;
             @media (max-width: 800px) {
                 width: 100%;
@@ -75,8 +75,6 @@
             display: none;
         }
         &--active {
-            // overflow-y: hidden;
-            // text-overflow: ellipsis;
             padding: 0 25px;
             @media (max-width: 800px) {
                 padding: 10px;
@@ -96,6 +94,7 @@
         &--active{
             color: black;
             background-color: #f0f8ffa8;
+            padding: 0 10%;
             b {
                 color: blue;
             }
