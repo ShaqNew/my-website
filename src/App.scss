@@ -53,6 +53,7 @@ button {
     height: 40px;
     width: 20%;
     margin: 5px;
+    transition: all 0.3s ease-in-out 0s;
   }
   &:hover{
       height: 55px;

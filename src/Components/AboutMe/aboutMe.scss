@@ -32,6 +32,13 @@
     display: flex;
     flex-direction: column;
     &__Link {
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+//   box-shadow: inset 0 0 0 0 #54b3d6;
+//   color: #54b3d6;
+//   margin: 0 -.25rem;
+//   padding: 0 .25rem;
+
         &:link {
             color: white;
         }
@@ -39,7 +46,7 @@
             color: white;
         }
         &:hover {
-            // color: #5988ff;
+            // box-shadow:inset 100px 0 0 0 #54b3d6;
             background-color: #366cf4;
         }
     }

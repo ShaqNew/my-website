@@ -5,6 +5,9 @@
     aspect-ratio: 3/1;
     margin: 30px;
     justify-content: center;
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
     &__stack,
     &__experience,
     &__outlook {
@@ -14,8 +17,11 @@
         position: relative;
         aspect-ratio: 1/1;
         background-size: cover !important;
+        @media (max-width: 800px) {
+            width: 90% !important;
+            margin: auto;
+        }
         &:hover {
-            outline: 1px green solid;
             box-shadow: rgba(0, 0, 0, 0.596) 5px 10px 15px;
         }
         &--active {
@@ -24,19 +30,29 @@
             font-size: calc(15px + 1vmin) !important;
             overflow-y: hidden;
             background-size: cover !important;
+            @media (max-width: 800px) {
+                width: 100%;
+            }
         }
         &--collapsed {
             width: 5% !important;
             height: auto !important;
+            @media (max-width: 800px) {
+                height: 40px !important;
+                width: 90% !important;
+            }
         }
     }
-    &__stackHeading,
-    &__experienceHeading,
-    &__outlookHeading {
-        &--collapsed {
-            transform: rotate(-90deg);
-        }
-    }
+    // &__stackHeading,
+    // &__experienceHeading,
+    // &__outlookHeading {
+    //     &--collapsed {
+    //         // transform: rotate(-90deg);
+    //         @media (max-width: 800px) {
+    //             transform: rotate(0deg);
+    //         }
+    //     }
+    // }
 }
 
 .skillButton {
@@ -47,7 +63,9 @@
     }
     &__heading {
         &--collapsed {
-            transform: rotate(-90deg);
+            @media (min-width: 800px) {
+                transform: rotate(-90deg);
+            }
         }
     }
     &__stack,
@@ -60,11 +78,17 @@
             // overflow-y: hidden;
             // text-overflow: ellipsis;
             padding: 0 25px;
+            @media (max-width: 800px) {
+                padding: 10px;
+            }
         }
     }
     &__stack {
         &--active{
             width: 100%;
+            @media (max-width: 800px) {
+                padding: 10px 0;
+            }
         }
     }
     &__experience,
@@ -72,6 +96,9 @@
         &--active{
             color: black;
             background-color: #f0f8ffa8;
+            b {
+                color: blue;
+            }
         }
     }
 }
