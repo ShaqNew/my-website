@@ -4,6 +4,9 @@ import Mario from "../../../../utils/gamePosters/Mario.webp"
 import SpiderMan from "../../../../utils/gamePosters/Spider-Man.jpeg"
 import Skyrim from "../../../../utils/gamePosters/Skyrim.jpeg"
 import TLOU from "../../../../utils/gamePosters/TheLastOfUs.jpeg"
+import Stellaris from "../../../../utils/gamePosters/Stellaris.jpeg"
+import dishonored2 from "../../../../utils/gamePosters/dishonored2.jpeg"
+import titanfall from "../../../../utils/gamePosters/Titanfall2.jpeg"
 
 
 export interface IGameCard {
@@ -32,30 +35,22 @@ export const gameList:TGameList = [
     },
     {
         poster:<img className="gamePoster" src={Skyrim} alt=""></img>,
-        title: "Skyrim"
+        title: "Elder Scrolls"
     },
     {
         poster:<img className="gamePoster" src={TLOU} alt=""></img>,
         title: "The Last Of Us"
     },
     {
-        poster:<img className="gamePoster" src={GodOfWar} alt=""></img>,
-        title: "God Of War"
+        poster:<img className="gamePoster" src={Stellaris} alt=""></img>,
+        title: "Stellaris"
     },
     {
-        poster:<img className="gamePoster" src={GodOfWar} alt=""></img>,
-        title: "God Of War"
+        poster:<img className="gamePoster" src={dishonored2} alt=""></img>,
+        title: "Dishonored"
     },
     {
-        poster:<img className="gamePoster" src={GodOfWar} alt=""></img>,
-        title: "God Of War"
-    },
-    {
-        poster:<img className="gamePoster" src={GodOfWar} alt=""></img>,
-        title: "God Of War"
-    },
-    {
-        poster:<img className="gamePoster" src={GodOfWar} alt=""></img>,
-        title: "God Of War"
+        poster:<img className="gamePoster" src={titanfall} alt=""></img>,
+        title: "Titanfall"
     }
 ]
