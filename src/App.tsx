@@ -6,6 +6,7 @@ import Interests from './Components/Interests/Interests';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import './App.scss';
 import Skills from './Components/Skills/Skills';
+import Projects from './Components/Projects/Projects';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <AboutMe/>
           <Interests/>
           <Skills/>
+          <Projects/>
         </ParallaxProvider>
       </div>
     </div>

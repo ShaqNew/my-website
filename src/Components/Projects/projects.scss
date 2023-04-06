@@ -1,0 +1,12 @@
+.Projects {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    &__content {
+        display: flex;
+        flex-flow: column;
+        flex: 1 1 auto;
+        color: white;
+    }
+}

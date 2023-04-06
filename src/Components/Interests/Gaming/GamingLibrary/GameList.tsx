@@ -7,6 +7,8 @@ import TLOU from "../../../../utils/gamePosters/TheLastOfUs.jpeg"
 import Stellaris from "../../../../utils/gamePosters/Stellaris.jpeg"
 import dishonored2 from "../../../../utils/gamePosters/dishonored2.jpeg"
 import titanfall from "../../../../utils/gamePosters/Titanfall2.jpeg"
+import NoMansSky from "../../../../utils/gamePosters/NoMansSky.webp"
+
 
 
 export interface IGameCard {
@@ -24,6 +26,10 @@ export const gameList:TGameList = [
     {
         poster:<img className="gamePoster" src={GodOfWar} alt=""></img>,
         title: "God Of War"
+    },
+    {
+        poster:<img className="gamePoster" src={NoMansSky} alt=""></img>,
+        title: "No Man's Sky"
     },
     {
         poster:<img className="gamePoster" src={Mario} alt=""></img>,
