@@ -71,6 +71,12 @@
             animation-delay: 1.4s;
         }
     }
+    &__constructionSign{
+      position: absolute;
+      bottom: -20px;
+      left: 20px;
+      width: 220px;
+    }
 }
 
 @keyframes top-to-center {

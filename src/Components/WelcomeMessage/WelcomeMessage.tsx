@@ -1,5 +1,6 @@
 import React from "react";
 import {TypeAnimation} from 'react-type-animation'
+import ConstructionSign from "../../utils/PNGs/Under-Construction.png";
 import "./welcomeMessage.scss";
 
 const WelcomeMessage = () => {
@@ -35,6 +36,7 @@ const WelcomeMessage = () => {
           Skills
         </a>
       </li>
+      <img className="welcome__constructionSign" src={ConstructionSign} alt="Under roadsign"/>
     </div>
   );
 };

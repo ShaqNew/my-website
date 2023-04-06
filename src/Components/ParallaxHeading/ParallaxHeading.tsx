@@ -12,7 +12,7 @@ const ParallaxHeading = (props:any) => {
             className="aspect-[2/1]"
             >
                 <div className="absolute inset-0 flex items-center justify-center">
-                    <Parallax easing='easeOut' endScroll={-10} scale={[0.01,2]}>
+                    <Parallax easing='easeOut' endScroll={-10} scale={[0.01,1.1]}>
                         <h1>{text}</h1>
                     </Parallax>
                 </div>
