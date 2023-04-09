@@ -3,7 +3,6 @@ import AboutMeText from "./AboutMeText";
 import AboutMeIcons from "./AboutMeIcons";
 import "./aboutMe.scss";
 import ParallaxHeading from "../ParallaxHeading/ParallaxHeading";
-import CityParallax from "./CityParallax/CityParallax";
 
 const AboutMe = () => {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import reactShop from "../../../utils/projectImages/react-ts-shop.png"
 import reactSearch from "../../../utils/projectImages/react-search-table.png"
 
