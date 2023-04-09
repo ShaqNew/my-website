@@ -11,6 +11,7 @@ import parasite from "../../../../utils/posters/ParasitePoster.webp"
 import soundOfMetal from "../../../../utils/posters/SoundofmetalPoster.jpeg"
 import logan from "../../../../utils/posters/LoganPoster.webp"
 import hereditarty from "../../../../utils/posters/ParasitePoster.webp"
+import hotFuzz from "../../../../utils/posters/HotFuzzPoster.jpeg"
 
 export interface IMovieCard {
     title: string
@@ -99,6 +100,11 @@ export const movieList:TMovieList = [
         title: "Hereditary",
         // poster:"https://m.media-amazon.com/images/M/MV5BOTU5MDg3OGItZWQ1Ny00ZGVmLTg2YTUtMzBkYzQ1YWIwZjlhXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_.jpg",
         poster:<img className="movieListPoster" src={hereditarty} alt=""></img>,
+        myRating: 10
+    },
+    {
+        title: "Hot Fuzz",
+        poster:<img className="movieListPoster" src={hotFuzz} alt=""></img>,
         myRating: 10
     }
 ]

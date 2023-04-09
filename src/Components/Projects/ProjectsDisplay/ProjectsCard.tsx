@@ -1,5 +1,4 @@
 import React from 'react';
-import shop from "../../../utils/projectImages/react-ts-shop.png"
 import { IProjectCard } from './ProjectsList';
 
 const ProjectsCard = (props:IProjectCard) => {
