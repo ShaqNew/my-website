@@ -8,6 +8,7 @@ import Stellaris from "../../../../utils/gamePosters/Stellaris.jpeg"
 import dishonored2 from "../../../../utils/gamePosters/dishonored2.jpeg"
 import titanfall from "../../../../utils/gamePosters/Titanfall2.jpeg"
 import NoMansSky from "../../../../utils/gamePosters/NoMansSky.webp"
+import Jedi from "../../../../utils/gamePosters/Jedi.jpeg"
 
 
 
@@ -58,5 +59,9 @@ export const gameList:TGameList = [
     {
         poster:<img className="gamePoster" src={titanfall} alt=""></img>,
         title: "Titanfall"
+    },
+    {
+        poster:<img className="gamePoster" src={Jedi} alt=""></img>,
+        title: "Jedi: Fallen order"
     }
 ]

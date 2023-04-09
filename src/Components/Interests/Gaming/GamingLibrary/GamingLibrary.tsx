@@ -8,7 +8,7 @@ const GamingLibrary = () => {
     return (
         <div className="gamingLibrary">
             <div className="gamingLibrary__heading">
-                My Favourite Games
+                My Favourite Games/Series
             </div>
             <div className="gamingLibrary__content">
                 {gameList.map((game:IGameCard) => (
