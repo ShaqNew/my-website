@@ -1,6 +1,5 @@
 import React from "react";
 import { ParallaxBanner } from "react-scroll-parallax";
-import StarBG from "../../utils/PNGs/StarBackground.jpeg"
 
 const ThreeDHeading = () => {
     return (

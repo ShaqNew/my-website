@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Gaming from "./Gaming/Gaming";
 import Movies from "./Movies/Movies";
 import Science from "./Science/Science";
