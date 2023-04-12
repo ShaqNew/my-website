@@ -30,13 +30,15 @@
         height: 100px;
         padding: 100px 50px;
         justify-content: space-around;
-        overflow-y: hidden;
+        flex-wrap: wrap;
+        z-index: 2;
         @media screen and (max-width: 600px) {
             padding: 0;
         }
         &--about,
         &--interests,
-        &--skills
+        &--skills,
+        &--projects
             {
                 display: flex;
                 position: relative;
@@ -47,6 +49,8 @@
                 color: white;
                 align-items: center;
                 text-decoration: none;
+                border-radius: 10px;
+                margin: 0 10px 10px;
 
                 text-transform: capitalize;
                 animation-name: bottom-up;
@@ -69,6 +73,9 @@
         }
         &--skills{
             animation-delay: 1.4s;
+        }
+        &--projects{
+            animation-delay: 1.6s;
         }
     }
     &__constructionSign{
@@ -98,7 +105,7 @@
 }
 @keyframes bottom-up {
   0% {
-    top: 200px;
+    top: 500px;
   }
   100% {
     top: 0px;

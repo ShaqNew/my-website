@@ -1,6 +1,5 @@
 import React from "react";
 
-// SkillExperience
 
 const SkillsText = () => {
   return (

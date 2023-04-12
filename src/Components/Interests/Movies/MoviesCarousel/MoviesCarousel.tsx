@@ -33,7 +33,6 @@ const MoviesCarousel = () => {
                             <h2 className="movieCard__title">{movie.title}</h2>
                             {typeof movie.poster === "string" ?
                             <img className="movieCard__poster" src={movie.poster} alt={movie.title}></img>:movie.poster}
-                            {/* <img className="movieCard__poster" src={movie.poster} alt={movie.title}></img> */}
                             <div className="movieCard__rating">{movie.myRating}</div>
                         </div>
                     </SwiperSlide>

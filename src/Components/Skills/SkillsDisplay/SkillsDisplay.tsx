@@ -37,7 +37,6 @@ const SkillsDisplay = () => {
             status={buttonStatus("stack")}
             heading={"Techstack"}
             content={<StackContent/>}
-            // bgImage={techBG}
         />
       </button>
       <button
@@ -52,7 +51,6 @@ const SkillsDisplay = () => {
             status={buttonStatus("experience")}
             heading={"Experience"}
             content={<ExperienceContent/>}
-            // bgImage={null}
         />
       </button>
       <button
@@ -67,7 +65,6 @@ const SkillsDisplay = () => {
           status={buttonStatus("outlook")}
           heading={"Outlook"}
           content={<Outlook/>}
-          // bgImage={null}
       />
       </button>
     </div>

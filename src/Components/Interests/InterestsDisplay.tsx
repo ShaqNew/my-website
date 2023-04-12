@@ -25,7 +25,6 @@ const InterestsDisplay = (props: { view: string }) => {
         displayView()
       ) : (
         <div className="defaultView">
-          {/* <h2>default view</h2> */}
           <p>
             I have many passions and interests that keep me engaged and excited
             about life!
