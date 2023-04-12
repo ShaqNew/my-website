@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Gaming from "./Gaming/Gaming";
 import Movies from "./Movies/Movies";
 import Science from "./Science/Science";
@@ -25,7 +25,6 @@ const InterestsDisplay = (props: { view: string }) => {
         displayView()
       ) : (
         <div className="defaultView">
-          {/* <h2>default view</h2> */}
           <p>
             I have many passions and interests that keep me engaged and excited
             about life!

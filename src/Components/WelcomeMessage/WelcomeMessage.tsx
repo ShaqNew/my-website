@@ -35,6 +35,9 @@ const WelcomeMessage = () => {
         <a className="welcome__links--skills" href="#skills">
           Skills
         </a>
+        <a className="welcome__links--projects" href="#projects">
+          Projects
+        </a>
       </li>
       <img className="welcome__constructionSign" src={ConstructionSign} alt="Under roadsign"/>
     </div>

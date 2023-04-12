@@ -13,7 +13,6 @@ type TProjectList = IProjectCard[]
 export const projectsList:TProjectList = [
     {
         title: "React Shop",
-        // image:<img className="card__image" src={reactShop} alt=""></img>,
         image:reactShop,
         link:"https://github.com/ShaqNew/react-shop"
     },
@@ -22,10 +21,4 @@ export const projectsList:TProjectList = [
         image:reactSearch,
         link:"https://github.com/ShaqNew/React-Property-Search-Table"
     }
-    // ,
-    // {
-    //     title: "Search Table",
-    //     image:"../../../utils/projectImages/react-ts-shop.png",
-    //     link:""
-    // }
 ]

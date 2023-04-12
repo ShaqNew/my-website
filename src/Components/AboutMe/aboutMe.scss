@@ -1,29 +1,15 @@
 .AboutMe {
     background-color: #010334;
-    // background: rgb(2,0,36);
-    // background: linear-gradient(55deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 57%, rgba(0,212,255,1) 100%);
-    // color: #282c34;
     color: white;
     position: relative;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    // border: 1px solid red;
     &__content {
-        // margin: 5px 20px;
         display: flex;
         flex-flow: column;
         flex: 1 1 auto;
         justify-content: space-between;
-        // &__icons {
-        //     position: relative;
-        //     display: flex;
-        //     border: 1px solid red;
-        //     bottom: 0;
-        //     height: 300px;
-        //     width: 100%;
-        //     justify-content: space-around;
-        // }
     }
 }
 
@@ -34,11 +20,6 @@
     &__Link {
         transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 
-//   box-shadow: inset 0 0 0 0 #54b3d6;
-//   color: #54b3d6;
-//   margin: 0 -.25rem;
-//   padding: 0 .25rem;
-
         &:link {
             color: white;
         }
@@ -46,7 +27,6 @@
             color: white;
         }
         &:hover {
-            // box-shadow:inset 100px 0 0 0 #54b3d6;
             background-color: #366cf4;
         }
     }
@@ -55,7 +35,6 @@
 .AboutMeIcons {
         position: relative;
         display: flex;
-        // border: 1px solid red;
         bottom: 0;
         height: 300px;
         width: 100%;
@@ -64,7 +43,6 @@
             height: 200px;
         }
     &__BigBen{
-        // position: absolute;
         bottom: 0;
         height: 300px;
         @media screen and (max-width: 600px) {
@@ -72,7 +50,6 @@
         }
     }
     &__Gherkin{
-        // position: absolute;
         bottom: 0;
         height: 200px;
         @media screen and (max-width: 600px) {

@@ -11,7 +11,6 @@ const SkillButton = (props:any) => {
                 {heading}
             </h2>
             <div className={`skillButton__${skill}${status}`}>
-                {/* {content} */}
                 {/* ANIMATE THEM WITH CSS */}
                 {status === "--active"?
                 content:
