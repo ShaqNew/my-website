@@ -19,7 +19,7 @@ const WelcomeMessage = () => {
                 ' developer and a person.',
                 1000,
                 ' developer and a person! :D',
-                8000,
+                6000,
             ]}
             speed={50}
             repeat={Infinity}
