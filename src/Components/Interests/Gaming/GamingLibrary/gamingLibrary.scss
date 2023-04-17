@@ -14,8 +14,11 @@
         justify-content: space-between;
         padding: 10px;
         overflow: scroll;
+        scrollbar-color: green;
+        scrollbar-width: thin;
         max-width: 100%;
         height: calc(50vh - 16px);
+        // cursor: all-scroll;
         @media screen and (max-width: 600px) {
             height: calc(40vh - 45px);
         }

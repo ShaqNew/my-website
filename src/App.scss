@@ -40,7 +40,7 @@ button {
   position: relative;
   height: 50px;
   width: 150px;
-  border: none;
+  border: white solid 1px;
   justify-content: center;
   background-color: #366cf4;
   color: white;
@@ -48,6 +48,7 @@ button {
   align-items: center;
   text-decoration: none;
   transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
   @media screen and (max-width: 600px) {
     height: 40px;
     width: 20%;
