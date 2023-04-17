@@ -4,7 +4,7 @@ export const StackContent = () => {
   return (
     <div className="stackContent">
       <ul>
-        <b>My strongest skills</b>
+        <b>My strongest skills:</b>
         <li>JavaScript</li>
         <li>React</li>
         <li>Typescript</li>
@@ -15,12 +15,13 @@ export const StackContent = () => {
         <li>E2E testing</li>
       </ul>
       <ul>
-        <b>Have experience with</b>
+        <b>Have experience with:</b>
         <li>BEM</li>
         <li>SQL</li>
         <li>GQL</li>
+        <li>JQuery</li>
         <li>Salesforce</li>
-        <li>PWA(Venia)</li>
+        <li>Magento</li>
         <li>Automation testing</li>
       </ul>
     </div>
@@ -39,7 +40,7 @@ export const ExperienceContent = () => {
 
       <p>
         Throughout my career, I have had the opportunity to work with a range of
-        senior and peer-level developers, allowing me to develop a deep
+        <b>senior and peer-level</b> developers, allowing me to develop a deep
         understanding of how to work <b>collaboratively</b> in a team environment. I am
         confident that my experience, knowledge, and passion for web development
         would make me a valuable addition to a development team.
