@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.35b8d0e5.css",
-    "main.js": "/static/js/main.e5f9c133.js",
+    "main.css": "/static/css/main.75ce116d.css",
+    "main.js": "/static/js/main.c90573ad.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/Jedi.jpeg": "/static/media/Jedi.99c5f28b1ecbdd460d0c.jpeg",
     "static/media/blackhole-giphy.gif": "/static/media/blackhole-giphy.07b424176ef89e2de92f.gif",
@@ -38,12 +38,12 @@
     "static/media/Under-Construction.png": "/static/media/Under-Construction.9d724fc3f8b3bfe36c48.png",
     "static/media/big-ben.png": "/static/media/big-ben.c55a06dc00b3b15887a3.png",
     "index.html": "/index.html",
-    "main.35b8d0e5.css.map": "/static/css/main.35b8d0e5.css.map",
-    "main.e5f9c133.js.map": "/static/js/main.e5f9c133.js.map",
+    "main.75ce116d.css.map": "/static/css/main.75ce116d.css.map",
+    "main.c90573ad.js.map": "/static/js/main.c90573ad.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35b8d0e5.css",
-    "static/js/main.e5f9c133.js"
+    "static/css/main.75ce116d.css",
+    "static/js/main.c90573ad.js"
   ]
 }
