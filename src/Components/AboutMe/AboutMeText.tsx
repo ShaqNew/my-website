@@ -11,7 +11,7 @@ const AboutMeText = () => {
         frontend development and experience in e-commerce
       </p>
       <p>
-        I studied computer science at the{" "}
+        I studied computer science and acheived a first at the{" "}
         <a
           className="AboutMeText__Link"
           href="https://www.kent.ac.uk/courses/undergraduate/124"
