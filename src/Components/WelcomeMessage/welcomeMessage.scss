@@ -8,8 +8,12 @@
         position: relative;
         width: 100%;
         text-transform: uppercase;
-        animation-name: top-to-center;
-        animation-duration: 1.5s;
+        // animation-name: top-to-center;
+        // animation-duration: 1.5s;
+        animation-name: bottom-up;
+        animation-duration: .8s;
+        animation-fill-mode: both;
+        transition: all .5s;
     }
 
     &__message {
@@ -18,11 +22,11 @@
         position: relative;
         width: 100%;
         text-transform: capitalize;
-        animation-name: left-to-center;
-        animation-timing-function: ease-out;
-        animation-delay: .3s;
-        animation-duration: 1s;
-        animation-fill-mode: both;
+        // animation-name: left-to-center;
+        // animation-timing-function: ease-out;
+        // animation-delay: .3s;
+        // animation-duration: 1s;
+        // animation-fill-mode: both;
     }
 
     &__links{
@@ -47,6 +51,7 @@
                 justify-content: center;
                 background-color: #366cf4;
                 color: white;
+                border: white solid 1px;
                 align-items: center;
                 text-decoration: none;
                 border-radius: 10px;
@@ -108,7 +113,7 @@
 }
 @keyframes bottom-up {
   0% {
-    top: 500px;
+    top: 800px;
   }
   100% {
     top: 0px;
