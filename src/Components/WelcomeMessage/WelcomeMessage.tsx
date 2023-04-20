@@ -25,7 +25,7 @@ const WelcomeMessage = () => {
             repeat={Infinity}
         />
       </p>
-      <li className="welcome__links">
+      <div className="welcome__links">
         <a className="welcome__links--about" href="#aboutme">
           About Me
         </a>
@@ -38,7 +38,7 @@ const WelcomeMessage = () => {
         <a className="welcome__links--projects" href="#projects">
           Projects
         </a>
-      </li>
+      </div>
       <img className="welcome__constructionSign" src={ConstructionSign} alt="Under roadsign"/>
     </div>
   );

@@ -3,17 +3,6 @@
   font-family: 'Nunito';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #010334;
   min-height: 100vh;
@@ -27,10 +16,6 @@
 
 .App-content {
   font-size: calc(8px + 2vmin);
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 
@@ -60,14 +45,5 @@ button {
       width: 160px;
       box-shadow: rgba(0, 0, 0, 0.596) 0px 5px 15px;
       font-size: calc(20px + 1vmin);
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
