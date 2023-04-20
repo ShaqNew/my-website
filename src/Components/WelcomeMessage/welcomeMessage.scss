@@ -8,12 +8,6 @@
         position: relative;
         width: 100%;
         text-transform: uppercase;
-        // animation-name: top-to-center;
-        // animation-duration: 1.5s;
-        // animation-name: bottom-up;
-        // animation-duration: .8s;
-        // animation-fill-mode: both;
-        // transition: all .5s;
     }
 
     &__message {
@@ -22,11 +16,6 @@
         position: relative;
         width: 100%;
         text-transform: capitalize;
-        // animation-name: left-to-center;
-        // animation-timing-function: ease-out;
-        // animation-delay: .3s;
-        // animation-duration: 1s;
-        // animation-fill-mode: both;
     }
 
     &__links{
@@ -71,16 +60,16 @@
                 }
             }
         &--about{
-            animation-delay: 1s;
+            animation-delay: .5s;
         }
         &--interests{
-            animation-delay: 1.2s;
+            animation-delay: .7s;
         }
         &--skills{
-            animation-delay: 1.4s;
+            animation-delay: .9s;
         }
         &--projects{
-            animation-delay: 1.6s;
+            animation-delay: 1.1s;
         }
     }
     &__constructionSign{

@@ -10,7 +10,7 @@ import interstellar from "../../../../utils/posters/InterstellarPoster.jpeg"
 import parasite from "../../../../utils/posters/ParasitePoster.webp"
 import soundOfMetal from "../../../../utils/posters/SoundofmetalPoster.jpeg"
 import logan from "../../../../utils/posters/LoganPoster.webp"
-import hereditarty from "../../../../utils/posters/ParasitePoster.webp"
+import hereditarty from "../../../../utils/posters/HereditaryPoster.jpeg"
 import hotFuzz from "../../../../utils/posters/HotFuzzPoster.jpeg"
 
 export interface IMovieCard {
