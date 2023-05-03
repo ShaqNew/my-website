@@ -7,7 +7,7 @@ import ProjectsScroll from "./ProjectsDisplay/ProjectsScroll";
 const Projects = () => {
   let broswerWidth = window.innerWidth;
   return (
-    <div id="projects" className="Projects">
+    <div id="projects" className="Projects" data-testid="projects-div">
       <div className="Projects__heading">
         <ParallaxHeading
           image={

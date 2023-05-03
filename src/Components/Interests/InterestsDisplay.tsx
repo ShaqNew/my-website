@@ -24,7 +24,7 @@ const InterestsDisplay = (props: { view: string }) => {
       {displayView() ? (
         displayView()
       ) : (
-        <div className="defaultView">
+        <div className="defaultView" data-testid="default-interest-div">
           <p>
             I have many passions and interests that keep me engaged and excited
             about life!

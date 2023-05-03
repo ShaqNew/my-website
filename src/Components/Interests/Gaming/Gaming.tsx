@@ -5,7 +5,7 @@ import "./gaming.scss"
 
 const Gaming = () => {
     return (
-        <div className="gaming">
+        <div className="gaming" data-testid="gaming-div">
             <h2>Gaming</h2>
             <div className="gaming__content">
                     <GamingText />

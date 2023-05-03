@@ -5,7 +5,7 @@ import "./science.scss"
 
 const Science = () => {
     return (
-        <div className="science">
+        <div className="science" data-testid="science-div">
             <h2>Science</h2>
             <div className="science__content">
                 <ScienceText />

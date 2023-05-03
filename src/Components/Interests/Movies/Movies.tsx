@@ -5,7 +5,7 @@ import "./movies.scss";
 
 const Movies = () => {
   return (
-    <div className="movies">
+    <div className="movies" data-testid="movies-div">
       <h2>Movies</h2>
       <div className="movies__content">
         <MoviesText />

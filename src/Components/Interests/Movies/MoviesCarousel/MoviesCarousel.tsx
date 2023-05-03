@@ -10,7 +10,7 @@ import "swiper/scss/navigation";
 const MoviesCarousel = () => {
 
     return (
-        <div className="moviesCarousel">
+        <div className="moviesCarousel" data-testid="movies-carousel-content">
             <Swiper
             spaceBetween={30}
             centeredSlides={true}
@@ -28,7 +28,7 @@ const MoviesCarousel = () => {
             >
                 {movieList.map((movie:IMovieCard) => (
                     <SwiperSlide>
-                        <div className="movieCard">
+                        <div className="movieCard" data-testid="movie-card">
                             {/* TODO: Limit the char size of the title */}
                             <h2 className="movieCard__title">{movie.title}</h2>
                             {typeof movie.poster === "string" ?

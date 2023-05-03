@@ -28,6 +28,7 @@ const SkillsDisplay = () => {
       <button
         style={{backgroundImage: `url(${techBG})`}}
         className={`skillsDisplay__stack${buttonStatus("stack")}`}
+        data-testid="skill-button-stack"
         onClick={() => {
           setActiveSkill(activeSkill === "stack" ? "" : "stack");
         }}
@@ -42,6 +43,7 @@ const SkillsDisplay = () => {
       <button
         style={{backgroundImage: `url(${experienceBG})`}}
         className={`skillsDisplay__experience${buttonStatus("experience")}`}
+        data-testid="skill-button-experience"
         onClick={() => {
           setActiveSkill(activeSkill === "experience" ? "" : "experience");
         }}
@@ -56,6 +58,7 @@ const SkillsDisplay = () => {
       <button
         style={{backgroundImage: `url(${outlookBG})`}}
         className={`skillsDisplay__outlook${buttonStatus("outlook")}`}
+        data-testid="skill-button-outlook"
         onClick={() => {
           setActiveSkill(activeSkill === "outlook" ? "" : "outlook");
         }}

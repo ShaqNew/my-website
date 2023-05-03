@@ -5,7 +5,7 @@ import SkillsDisplay from "./SkillsDisplay/SkillsDisplay";
 
 const Skills = () => {
     return(
-        <div id="skills" className="Skills">
+        <div id="skills" className="Skills" data-testid="skills-div">
             <div className="Skills__heading">
             <ParallaxHeading
                 image={

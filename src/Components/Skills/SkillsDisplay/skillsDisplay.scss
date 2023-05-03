@@ -52,11 +52,15 @@
     &--active {
         height: -webkit-fill-available;
     }
+    &--collapsed {
+        @media (min-width: 800px) {
+            transform: rotate(-90deg);
+        }
+    }
     &__heading {
         &--collapsed {
-            @media (min-width: 800px) {
-                transform: rotate(-90deg);
-            }
+            margin-block-start: 0 !important;
+            margin-block-end: 0 !important;
         }
     }
     &__stack,

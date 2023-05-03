@@ -17,7 +17,7 @@ const Interests = () => {
     }
 
     return(
-        <section id="interests" className="Interests">
+        <section id="interests" className="Interests" data-testid="interests-div">
             <div className="Interests__heading">
             <ParallaxHeading
                 image={

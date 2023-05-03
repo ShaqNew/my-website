@@ -6,7 +6,7 @@ import ParallaxHeading from "../ParallaxHeading/ParallaxHeading";
 
 const AboutMe = () => {
   return (
-    <div id="aboutme" className="AboutMe">
+    <div id="aboutme" className="AboutMe" data-testid="about-div">
       <div className="AboutMe__heading">
         <ParallaxHeading
           image={

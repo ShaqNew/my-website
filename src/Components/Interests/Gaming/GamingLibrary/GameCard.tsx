@@ -6,7 +6,7 @@ const GameCard = (props:any) => {
 
 
     return (
-        <div className="gameCard">
+        <div className="gameCard" data-testid="gaming-card">
             <div className="gameCard__poster">
                 {game.poster}
             </div>

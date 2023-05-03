@@ -10,7 +10,7 @@ const GamingLibrary = () => {
             <div className="gamingLibrary__heading">
                 My Favourite Games/Series
             </div>
-            <div className="gamingLibrary__content">
+            <div className="gamingLibrary__content" data-testid="gaming-library-content">
                 {gameList.map((game:IGameCard) => (
                     <GameCard game={game}/>
                 ))}

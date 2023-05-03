@@ -5,12 +5,12 @@ import "./welcomeMessage.scss";
 
 const WelcomeMessage = () => {
   return (
-    <div className="welcome">
-      <h1 className="welcome__heading">
+    <div className="welcome" data-testid="welcome-div">
+      <h1 className="welcome__heading" data-testid="welcome-heading">
         Shaq's<br></br>Portfolio
       </h1>
-      <p className="welcome__message">Hi and welcome to my personal page!</p>
-      <p>
+      <p className="welcome__message" data-testid="welcome-message">Hi and welcome to my personal page!</p>
+      <p data-testid="welcome-message-animation">
         I created this website to introduce myself as a 
         <TypeAnimation
             sequence={[
@@ -25,17 +25,17 @@ const WelcomeMessage = () => {
             repeat={Infinity}
         />
       </p>
-      <div className="welcome__links">
-        <a className="welcome__links--about" href="#aboutme">
+      <div className="welcome__links" data-testid="welcome-links">
+        <a className="welcome__links--about" href="#aboutme" data-testid="welcome-about">
           About Me
         </a>
-        <a className="welcome__links--interests" href="#interests">
+        <a className="welcome__links--interests" href="#interests" data-testid="welcome-interests">
           Interests
         </a>
-        <a className="welcome__links--skills" href="#skills">
+        <a className="welcome__links--skills" href="#skills" data-testid="welcome-skills">
           Skills
         </a>
-        <a className="welcome__links--projects" href="#projects">
+        <a className="welcome__links--projects" href="#projects" data-testid="welcome-projects">
           Projects
         </a>
       </div>

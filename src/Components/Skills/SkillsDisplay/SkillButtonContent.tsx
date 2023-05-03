@@ -2,7 +2,7 @@ import React from "react";
 
 export const StackContent = () => {
   return (
-    <div className="stackContent">
+    <div className="stackContent" data-testid="stack-content">
       <ul>
         <b>My strongest skills:</b>
         <li>JavaScript</li>
@@ -30,7 +30,7 @@ export const StackContent = () => {
 
 export const ExperienceContent = () => {
   return (
-    <div className="experience">
+    <div className="experience" data-testid="experience-content">
       <p>
         With over <b>three</b> years of experience working in projects for top brands
         such as <b>Calvin Klein</b>, <b>Tommy Hilfiger</b>, <b>British American Tobacco</b>, <b>Tempur
@@ -51,7 +51,7 @@ export const ExperienceContent = () => {
 
 export const Outlook = () => {
   return (
-    <div className="outlookContent">
+    <div className="outlookContent" data-testid="outlook-content">
       <p>
         As a frontend developer, I believe that striving to always do my best
         and deliver the <b>cleanest</b>, most <b>functional</b>, and <b>well-tested</b> code is a
