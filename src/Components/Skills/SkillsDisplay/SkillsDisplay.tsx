@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import SkillButton from "./SkillButton";
 import { ExperienceContent, StackContent, Outlook } from "./SkillButtonContent";
 import techBG from "../../../utils/skillsImages/techBackground.jpeg"
@@ -8,10 +8,6 @@ import "./skillsDisplay.scss";
 
 const SkillsDisplay = () => {
   const [activeSkill, setActiveSkill] = useState("");
-
-  useEffect(() => {
-    console.log("Active skill: ", activeSkill);
-  }, [activeSkill]);
 
   const buttonStatus = (skill: string) => {
     if (activeSkill === "") {

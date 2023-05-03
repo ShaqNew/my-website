@@ -84,20 +84,18 @@ describe('template spec', () => {
     cy.get('[data-testid="movies-carousel-content"]').should('exist');
     cy.get('[data-testid="movie-card"]').should('have.length.at.least', 5);
 
-    // Test that the movie card swapped
-    // ...It's 3rd party, should I really be testing it..?
     cy.get('*[class^="swiper-button-next"]').should('exist');
     cy.get('*[class^="swiper-button-next"]').first().click();
   })
 
-  it('SKills section', () => {
+  it('Skills section', () => {
     cy.get('[data-testid="skills-div"]').should('exist');
     cy.get('[data-testid="skill-button-stack"]').should('exist');
     cy.get('[data-testid="skill-button-experience"]').should('exist');
     cy.get('[data-testid="skill-button-outlook"]').should('exist');
   })
 
-  it('SKills section toggle interactivity', () => {
+  it('Skills section toggle interactivity', () => {
     cy.get('[data-testid="stack-content"]').should('not.exist');
     cy.get('[data-testid="skill-button-stack"]').click();
     cy.get('[data-testid="stack-content"]').should('exist');
